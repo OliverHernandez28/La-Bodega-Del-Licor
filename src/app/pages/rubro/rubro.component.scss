@@ -1,0 +1,21 @@
+.contene {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+}
+
+app-tarjeta-articulo {
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .contene {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+svg {
+    fill: white;
+    width: 1.5rem;
+    height: 1.5rem;
+}

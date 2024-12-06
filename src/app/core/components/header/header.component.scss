@@ -1,0 +1,63 @@
+header {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color);
+    border-radius: 0 0 15px 15px;
+    height: 80px;
+    align-items: flex-end;
+    transition: all .5s ease-in-out;
+    position: relative;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: xx-large;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.extendido {
+    height: 200px;
+    background-color: unset;
+    color: white;
+}
+
+header::before {
+    position: absolute;
+    content: "";
+    background-image: url("../../../../assets/img/titulo.jpg");
+    background-size: cover;
+    opacity: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    border-radius: 0 0 15px 15px;
+}
+
+header.extendido::before {
+    opacity: .8;
+}
+
+.fade-in {
+    animation: fade-out 450ms ease-in-out;
+    animation-direction: reverse;
+}
+
+.fade-out {
+    animation: fade-out .5s ease-in-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes fade-out {
+    100% {
+        opacity: 0%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    header::before {
+        background-size: contain;
+    }
+}

@@ -1,0 +1,29 @@
+<section>
+    <form #formFiltro="ngForm">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 mb-3">
+                    <div class="input-group">
+                        <span class="input-group-text" id="basic-addon1">🔍</span>
+                        <input placeholder="Ingresa el nombre del producto" name="nombre" [(ngModel)]="filtroBusqueda"
+                            #nombre="ngModel" type="text" class="form-control" aria-label="Username"
+                            aria-describedby="basic-addon1">
+                    </div>
+                    <small><b>{{productos.length}}</b> elementos encontrados</small>
+                </div>
+            </div>
+        </div>
+    </form>
+    <ng-container *ngIf="productos.length > 0 else sinArticulos">
+        <div class="contene">
+            <app-tarjeta-articulo *ngFor="let articulo of productos"
+                [routerLink]="['/articulo',articulo.idCategoria,articulo.id]" [articulo]="articulo">
+            </app-tarjeta-articulo>
+        </div>
+
+    </ng-container>
+    <ng-template #sinArticulos>
+
+        <h2 class="text-center">No se encontraron articulos</h2>
+    </ng-template>
+</section>

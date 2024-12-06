@@ -1,0 +1,21 @@
+.container2 {
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 0;
+}
+
+.tarjeta {
+    margin: 0 auto;
+}
+
+app-tarjeta-categoria {
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .container2 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+}

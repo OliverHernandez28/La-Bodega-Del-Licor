@@ -1,0 +1,19 @@
+div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80px;
+    height: 40px;
+    background-color: var(--color);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+button {
+    border: unset;
+    font-weight: bold;
+    background-color: transparent;
+    padding: 0 10px;
+    cursor: pointer;
+
+}

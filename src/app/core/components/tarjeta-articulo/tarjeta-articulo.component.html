@@ -1,0 +1,11 @@
+<div class="contene">
+    <div class="card">
+        <img [src]="articulo.fotoUrl" [alt]="articulo.nombre" class="image">
+        <h4>{{articulo.nombre}}</h4>
+        <p>
+            Precio: <b>${{articulo.precio}}</b><br>
+            Cantidad: {{articulo.cantidad}} ml<br>
+            Disponible: {{articulo.disponible ? '✅' : '❌'}}
+        </p>
+    </div>
+</div>

@@ -1,0 +1,46 @@
+<section class="container mt-4">
+    <div class="row align-items-center cardd">
+        <div class="col-md-4 text-center">
+            <img class="img-fluid rounded shadow" [src]="producto?.fotoUrl" [alt]="producto?.nombre">
+        </div>
+
+        <div class="col-md-8 p-3">
+            <br>
+            <h2 class="text-primary">{{producto?.nombre}}</h2>
+            <p class="mb-2">
+                <span class="fw-bold">Precio: </span>
+                <span class="text-success"><b>{{formateo(producto?.precio||0)}}</b></span>
+            </p>
+            <p class="mb-2">
+                <span class="fw-bold">Cantidad en mililitros:</span> {{producto?.cantidad}}
+            </p>
+            <p class="mb-2">
+                <span class="fw-bold">Disponible para comprar:</span>
+                <span [class]="producto?.disponible ? 'text-success' : 'text-danger'">
+                    {{producto?.disponible ? '✅ Sí' : '❌ No'}}
+                </span>
+            </p>
+            <p class="text-muted">{{producto?.descripcion}}</p>
+
+            <div class="d-flex justify-content-between">
+                <label class="d-flex align-items-center" for="cantidad">Cantidad:</label>
+                <app-contador-cantidad (cantidadCambiada)="cantidad.set($event)"></app-contador-cantidad>
+            </div>
+            <div>
+                <button (click)="agregarAlCarrito()" class="btn btn-primary mt-3" [disabled]="!producto?.disponible">
+                    Agregar al carrito
+                </button>
+
+            </div>
+
+
+        </div>
+
+        <button class="btn btn-secondary regresar" (click)="regresar()">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <path
+                    d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
+            </svg>
+        </button>
+    </div>
+</section>

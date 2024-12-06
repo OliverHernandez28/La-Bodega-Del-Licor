@@ -1,0 +1,4 @@
+<div class="container2">
+    <app-tarjeta-categoria *ngFor="let categoria of categorias()" [routerLink]="['/categoria', categoria.id]"
+        [categoria]="categoria" class="tarjeta"></app-tarjeta-categoria>
+</div>

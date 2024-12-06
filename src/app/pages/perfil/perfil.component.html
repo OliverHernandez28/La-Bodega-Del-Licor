@@ -1,0 +1,44 @@
+<section>
+    <form #form="ngForm" (ngSubmit)="guardar(form)" class="container p-4 bg-light rounded shadow">
+        <h2 class="text-center mb-4">Información del Cliente</h2>
+        <div class="row g-3">
+            <div class="form-group col-md-6">
+                <label for="nombre" class="form-label">Nombre:</label>
+                <input [disabled]="isFormDisabled" name="nombre" [(ngModel)]="cliente.nombre" minlength="5" type="text"
+                    class="form-control" id="nombre" #nombre="ngModel" placeholder="Ingresa tu nombre" />
+                <p class="text-danger" *ngIf="!nombre.valid && nombre.touched">Ingrese un nombre valido</p>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="cp" class="form-label">Código Postal:</label>
+                <input [disabled]="isFormDisabled" name="cp" [(ngModel)]="cliente.cp" type="number" class="form-control"
+                    required minlength="5" required="" maxlength="5" min="10000" max="99999" id="cp" #cp="ngModel"
+                    placeholder="Ejemplo: 12345" />
+                <p class="text-danger" *ngIf="!cp.valid && cp.touched">Ingrese un codigo postal valido</p>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="direccion" class="form-label">Dirección de Entrega:</label>
+                <input [disabled]="isFormDisabled" name="direccion" [(ngModel)]="cliente.direccion" type="text"
+                    class="form-control" id="direccion" required="" #direccion="ngModel" placeholder="Calle y número" />
+                <p class="text-danger" *ngIf="!direccion.valid && direccion.touched">Ingrese una dirección valida</p>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="notas" class="form-label">Notas de la Dirección:</label>
+                <input [disabled]="isFormDisabled" name="notas" [(ngModel)]="cliente.detalleEntrega" type="text"
+                    class="form-control" id="notas" required="" #notas="ngModel" placeholder="Información adicional" />
+                <p class="text-danger" *ngIf="!notas.valid && notas.touched">Ingrese una información valida</p>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="telefono" class="form-label">Teléfono:</label>
+                <input [disabled]="isFormDisabled" name="telefono" [(ngModel)]="cliente.telefono" type="tel"
+                    class="form-control" id="telefono" required="" pattern="[0-9]{10}" #telefono="ngModel"
+                    placeholder="Ejemplo: 555-555-5555" />
+                <p class="text-danger" *ngIf="!telefono.valid && telefono.touched">Ingrese un teléfono valido</p>
+            </div>
+            <div class="col-12 text-center">
+                <button *ngIf="!isFormDisabled" type="submit" class="btn btn-success w-100">Guardar</button>
+                <button title="Da click para editar" *ngIf="isFormDisabled" type="button" class="btn btn-warning w-100"
+                    (click)="isFormDisabled = !isFormDisabled">Editar Información</button>
+            </div>
+        </div>
+    </form>
+</section>
