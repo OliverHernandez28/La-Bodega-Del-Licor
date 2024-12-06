@@ -97,7 +97,7 @@ Delivery: ${this.formateo(this.delivery)}
 Total: ${this.formateo(this.total).padStart(11, " ")}
 Muchas gracias.`
 
-        let numeroEnvio = +523325366773
+        let numeroEnvio = +523314701191
         const link = `https://wa.me/${numeroEnvio}?text=${encodeURIComponent(mensaje)}`
         window.open(link, '_blank')
 
