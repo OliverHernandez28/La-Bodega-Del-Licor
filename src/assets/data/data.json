@@ -1,0 +1,175 @@
+[
+    {
+        "id": 1,
+        "nombre": "Don Julio",
+        "fotoUrl": "https://media.diageocms.com/media/e2ldx0cd/spirits-beer-and-drinks_our-brands_tequila_don-julio-generic-promo.png",
+        "productos": [
+            {
+                "id": 1,
+                "nombre": "DON JULIO 70",
+                "precio": 749,
+                "cantidad": 1000,
+                "fotoUrl": "data:image/jpeg;base64,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",
+                "descripcion": "El primer tequila añejo cristalino del mundo. Combina la suavidad de un tequila añejo con la frescura de un blanco. Sus notas de vainilla, miel y roble hacen de este tequila una experiencia única y elegante.",
+                "disponible": true
+            },
+            {
+                "id": 2,
+                "nombre": "DON JULIO REPOSADO",
+                "precio": 649,
+                "cantidad": 1000,
+                "fotoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNyxCpsfH4R162ROygCth9dGe8PXpRYBRKwQ&s",
+                "descripcion": "Un tequila de cuerpo medio con notas suaves y equilibradas de frutas secas, caramelo y un toque de madera. Reposado durante ocho meses en barricas de roble americano.",
+                "disponible": true
+            },
+            {
+                "id": 3,
+                "nombre": "DON JULIO BLANCO",
+                "precio": 549,
+                "cantidad": 1000,
+                "fotoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYfLsDtpC5LOqwXeRZSgFw0pS7cmSkGAwRwg&s",
+                "descripcion": "La esencia pura del agave azul. Este tequila cristalino y fresco destaca por sus notas cítricas, de pimienta y hierbas.",
+                "disponible": true
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "nombre": "Tradicional",
+        "fotoUrl": "https://vinosamerica.com/cdn/shop/products/7501035012219_4_720x.jpg?v=1685321515",
+        "productos": [
+            {
+                "id": 1,
+                "nombre": "TRAD CRISTALINO",
+                "precio": 449,
+                "cantidad": 1000,
+                "fotoUrl": "https://vinotecamx.vtexassets.com/arquivos/ids/1346294/T28533-Vinoteca-Tequila-Tradicional-Cristalino-750Ml-003.jpg?v=638646735697130000",
+                "descripcion": "Un tequila añejo cristalino que destaca por su suavidad y pureza. Conserva los sabores ricos de la madera y el agave maduro, con un acabado dulce y ligero.",
+                "disponible": true
+            },
+            {
+                "id": 2,
+                "nombre": "TRAD PLATA",
+                "precio": 369,
+                "cantidad": 1000,
+                "fotoUrl": "https://www.lanaval.com.mx/93471-large_default/tequila-jose-cuervo-tradicional-plata-695ml.jpg",
+                "descripcion": "Un tequila fresco y auténtico, elaborado con agave azul 100% mexicano. Suave en el paladar, con notas cítricas y herbales, es perfecto para margaritas y otros cócteles, o para disfrutar puro con un toque de sal y limón",
+                "disponible": true
+            },
+            {
+                "id": 3,
+                "nombre": "TRAD REPOSADO",
+                "precio": 369,
+                "cantidad": 1000,
+                "fotoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTszRJCvjz_ch8WNfZZH_VQ9r7dquvBRFV5jA&s",
+                "descripcion": "Este tequila reposado ofrece el equilibrio perfecto entre suavidad y carácter. Envejecido en barricas de roble, tiene notas cálidas de vainilla, caramelo y un toque de especias.",
+                "disponible": true
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "nombre": "Centenario",
+        "fotoUrl": "https://http2.mlstatic.com/D_NQ_NP_636886-MLM47718256233_092021-O.webp",
+        "productos": [
+            {
+                "id": 1,
+                "nombre": "CENTENARIO PLATA",
+                "precio": 330,
+                "cantidad": 1000,
+                "fotoUrl": "https://varrica.mx/wp-content/uploads/2024/08/CENTENARIO1LT.jpeg",
+                "descripcion": "Un tequila suave y brillante, elaborado con agave azul 100%. Destaca por sus notas frescas de agave y cítricos, lo que lo convierte en una elección ideal para cócteles o para disfrutar puro con hielo.",
+                "disponible": true
+            },
+            {
+                "id": 2,
+                "nombre": "CENTENARIO REPOSADO",
+                "precio": 330,
+                "cantidad": 1000,
+                "fotoUrl": "https://i5.walmartimages.com.mx/mg/gm/1p/images/product-images/img_large/00750104881001l.jpg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+                "descripcion": "Tequila de sabor equilibrado, reposado en barricas de roble para obtener notas cálidas de caramelo, vainilla y especias. Perfecto para disfrutar solo o como base de bebidas sofisticadas.",
+                "disponible": true
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "nombre": "Buchanans",
+        "fotoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsM6U8HG2CY7EBU9Q67BYKEpkBLptYot9vxQ&s",
+        "productos": [
+            {
+                "id": 1,
+                "nombre": "BUCHANANS 12",
+                "precio": 749,
+                "cantidad": 1000,
+                "fotoUrl": "https://http2.mlstatic.com/D_NQ_NP_739193-MLC47570746590_092021-O.webp",
+                "descripcion": "Un whisky escocés blended de 12 años, conocido por su suavidad y cuerpo ligero. Ofrece notas de miel, manzanas verdes y roble, con un final cremoso y dulce. Ideal para ocasiones especiales o para mezclar en cocteles premium.",
+                "disponible": true
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "nombre": "Herradura",
+        "fotoUrl": "https://cdn.uc.assets.prezly.com/9ac7ff03-8be0-46ed-b446-4b2323d6966a/US%2B-%2BHerradura%2BCore%2BFamily%2Band%2BUltra%2B-%2BKey%2BVisual.jpg",
+        "productos": [
+            {
+                "id": 1,
+                "nombre": "HERRADURA ULTRA",
+                "precio": 679,
+                "cantidad": 1000,
+                "fotoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzQe05IZeeUiuqOC0ogDDG0n592JUUu75dvw&s",
+                "descripcion": "Un tequila añejo cristalino ultra premium, mezcla de añejo y extra añejo con un toque de néctar de agave. Ofrece un perfil suave y dulce, con notas de almendra tostada y vainilla. Perfecto para disfrutar solo en su máxima expresión.",
+                "disponible": true
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "nombre": "Dobel",
+        "fotoUrl": "https://http2.mlstatic.com/D_NQ_NP_690195-MLB53484387949_012023-O.webp",
+        "productos": [
+            {
+                "id": 1,
+                "nombre": "MAESTRO DOBEL",
+                "precio": 599,
+                "cantidad": 1000,
+                "fotoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ55G2NZ6n0CIAe56Plry65-V2YEyQVzUSFkA&s",
+                "descripcion": "Tequila innovador y sofisticado, elaborado con agave azul y destilado con un proceso artesanal. Ofrece un perfil suave y complejo, con notas de roble, caramelo y un toque de especias. Ideal para disfrutar solo o en cócteles premium.",
+                "disponible": true
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "nombre": "1800",
+        "fotoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkFUaToe8BXmNKLEenIfnCA4sytyly6hlbAg&s",
+        "productos": [
+            {
+                "id": 1,
+                "nombre": "1800 CRISTALINO",
+                "precio": 599,
+                "cantidad": 1000,
+                "fotoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsBbLHBUGWR6QSUcE16aeBwnC1q3YQYeQYew&s",
+                "descripcion": "Un tequila añejo cristalino que combina la suavidad del añejamiento con una pureza visual impecable. Tiene sabores ricos de caramelo y vainilla con un toque de frutos secos, ofreciendo una experiencia elegante y refinada.",
+                "disponible": true
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "nombre": "Torres",
+        "fotoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSye5J1WbR126O8TxdYbs9XCeXNbC6MSsnDTk9qm5LTNPG_2exZRUVNHeoT20Y-mIt8cPI&usqp=CAU",
+        "productos": [
+            {
+                "id": 1,
+                "nombre": "TORRES 10",
+                "precio": 350,
+                "cantidad": 1000,
+                "fotoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSem4m9_k90i0gakb0mhdn59zkN5iJm_w4JaQ&s",
+                "descripcion": "Un brandy español de calidad superior, envejecido en barricas de roble americano. Su perfil es intenso y equilibrado, con sabores de vainilla, canela y nueces tostadas. Perfecto para disfrutar solo o con hielo.",
+                "disponible": true
+            }
+        ]
+    }
+]
